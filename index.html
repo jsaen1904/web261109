@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 영화 보드</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+</script>
+
+<body>
+    <header class="top">
+        <h1>내 영화 보드</h1>
+        <nav>
+            <ul>
+                <li><a href="#board">보드</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="detail.html">상세</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <pre id="out"></pre>
+    <section class="hero">
+        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <p>포스터 위에 마우스를 올려 보세요.</p>
+
+    </section>
+
+    <section class="board" id="board">
+        <article class="card">
+            <img class="poster" src="https://image.tmdb.org/t/p/w342//jULvvUymAqM18gIDHbMRfKHbCSB.jpg" alt="영화 제목 포스터">
+            <span class="badge">8.1</span>
+            <div class="info">
+                <h2>이터널 선샤인</h2>
+                <p class="year">2004</p>
+                <p class="overview">전 연인의 기억을 지우며 과거에 함께했던 기억을 돌어봄</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="poster" src="https://image.tmdb.org/t/p/w342//atSxEGstxXRoSKDQFBgqQ5lpGSt.jpg" alt="영화 제목 포스터">
+            <span class="badge">7.2</span>
+            <div class="info">
+                <h2>인셉션</h2>
+                <p class="year">2010</p>
+                <p class="overview">타인의 꿈에 잠입해 생각을 훔치는 특수 보안요원이 반대로 타인의 무의식 속에 새로운 생각을 심는 작전을 수행하며 벌어지는 이야기</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="poster" src="https://image.tmdb.org/t/p/w342//iyQ8pmCpmnPrGtaHMfmSvQLv8Fy.jpg" alt="영화 제목 포스터">
+            <span class="badge">8.4</span>
+            <div class="info">
+                <h2>인생은 아름다워</h2>
+                <p class="year">1997</p>
+                <p class="overview">유대인 수용소에 갇힌 아들에게 끝까지 웃음과 동심을 지켜준 아버지를 그린 이야기</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="poster" src="https://image.tmdb.org/t/p/w342//9fnWov6Mb7LJKA2dJLV9h1mcSnF.jpg" alt="영화 제목 포스터">
+            <span class="badge">6.9</span>
+            <div class="info">
+                <h2>맘마미아!</h2>
+                <p class="year">2008</p>
+                <p class="overview">그리스의 한 외딴섬에서 결혼식을 앞둔 딸 소피가 자신의 진짜 아버지를 찾기 위해 엄마 도나의 옛 연인 세 명을 초대하며 벌어지는 이야기</p>
+            </div>
+        </article>
+
+        <article class="card">
+            <img class="poster" src="https://image.tmdb.org/t/p/w342//netHzIutioPMJt6VePen3nXBBCR.jpg" alt="영화 제목 포스터">
+            <span class="badge">7.9</span>
+            <div class="info">
+                <h2>노예 12년</h2>
+                <p class="year">2013</p>
+                <p class="overview">자유로운 음악가에서 하루아침에 납치되어 12년 동안 노예로 살아야 했던 실존 인물 '솔로몬 노섭'의 이야기를 그린 영화</p>
+            </div>
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>이 보드에 대하여</h2>
+        <p>만든 사람과 영화를 고른 기준을 한두 문장으로 적습니다.</p>
+        <p>포스터와 영화 정보는 TMDB 검색 결과를 그대로 옮겼습니다.</p>
+    </section>
+    </main>
+    </div>
+
+
+
+    </article>
+    <footer>
+        <p>이 사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
+            This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
+        <p>포스터와 영화 정보: TMDB (https://www.themoviedb.org)</p>
+    </footer>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
